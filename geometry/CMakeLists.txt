@@ -11,7 +11,12 @@ find_package(Qt5 REQUIRED Widgets)
 #qt5_wrap_ui( UIC widget.ui)
 #qt5_add_resources(RCC resources.qrc)
 
-add_executable(geometry main.cpp geometry.cpp${RESOURCE_DIR})
+add_executable(geometry main.cpp geometry.cpp ${RESOURCE_DIR})
 
 target_link_libraries(geometry Qt5::Widgets)
 
+install(TARGETS geometry
+  RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}
+  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+  ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)

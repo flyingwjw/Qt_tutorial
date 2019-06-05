@@ -1,0 +1,5 @@
+E:/share/qt/build/Qt_tutorial/CMakeFiles/INSTALL.dir
+E:/share/qt/build/Qt_tutorial/CMakeFiles/ALL_BUILD.dir
+E:/share/qt/build/Qt_tutorial/CMakeFiles/ZERO_CHECK.dir
+E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/geometry.dir
+E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/INSTALL.dir

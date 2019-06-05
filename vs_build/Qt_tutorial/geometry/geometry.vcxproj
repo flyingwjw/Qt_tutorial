@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DA0E6D8-219B-39F6-B14A-BEBF160A7030}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>geometry</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\share\qt\build\Qt_tutorial\geometry\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geometry.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\share\qt\build\Qt_tutorial\geometry\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geometry.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\share\qt\build\Qt_tutorial\geometry\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geometry.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\share\qt\build\Qt_tutorial\geometry\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geometry.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">geometry</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Debug;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Debug;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Debug;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target geometry</Message>
+      <Command>setlocal
+cd E:\share\qt\build\Qt_tutorial\geometry
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/geometry_autogen.dir/AutogenInfo.cmake Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\share\code\vcpkg\installed\x64-windows\debug\lib\Qt5Widgetsd.lib;E:\share\code\vcpkg\installed\x64-windows\debug\lib\Qt5Guid.lib;E:\share\code\vcpkg\installed\x64-windows\debug\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/share/qt/build/Qt_tutorial/geometry/Debug/geometry.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/share/qt/build/Qt_tutorial/geometry/Debug/geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Release;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Release;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_Release;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target geometry</Message>
+      <Command>setlocal
+cd E:\share\qt\build\Qt_tutorial\geometry
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/geometry_autogen.dir/AutogenInfo.cmake Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/share/qt/build/Qt_tutorial/geometry/Release/geometry.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/share/qt/build/Qt_tutorial/geometry/Release/geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_MinSizeRel;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_MinSizeRel;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_MinSizeRel;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target geometry</Message>
+      <Command>setlocal
+cd E:\share\qt\build\Qt_tutorial\geometry
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/geometry_autogen.dir/AutogenInfo.cmake MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/share/qt/build/Qt_tutorial/geometry/MinSizeRel/geometry.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/share/qt/build/Qt_tutorial/geometry/MinSizeRel/geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_RelWithDebInfo;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_RelWithDebInfo;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\share\qt\build\Qt_tutorial\geometry;E:\share\qt\Qt_tutorial\geometry;E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\include_RelWithDebInfo;E:\share\code\vcpkg\installed\x64-windows\include;E:\share\code\vcpkg\installed\x64-windows\include\QtWidgets;E:\share\code\vcpkg\installed\x64-windows\include\QtGui;E:\share\code\vcpkg\installed\x64-windows\include\QtCore;E:\share\code\vcpkg\installed\x64-windows\share\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target geometry</Message>
+      <Command>setlocal
+cd E:\share\qt\build\Qt_tutorial\geometry
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/geometry_autogen.dir/AutogenInfo.cmake RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;E:\share\code\vcpkg\installed\x64-windows\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/share/qt/build/Qt_tutorial/geometry/RelWithDebInfo/geometry.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/share/qt/build/Qt_tutorial/geometry/RelWithDebInfo/geometry.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/share/qt/Qt_tutorial -BE:/share/qt/build/Qt_tutorial --check-stamp-file E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\share\qt\build\Qt_tutorial\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/share/qt/Qt_tutorial -BE:/share/qt/build/Qt_tutorial --check-stamp-file E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\share\qt\build\Qt_tutorial\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/share/qt/Qt_tutorial -BE:/share/qt/build/Qt_tutorial --check-stamp-file E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\share\qt\build\Qt_tutorial\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/share/qt/Qt_tutorial -BE:/share/qt/build/Qt_tutorial --check-stamp-file E:/share/qt/build/Qt_tutorial/geometry/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/share/qt/Qt_tutorial/geometry/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\share\code\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;E:\share\qt\Qt_tutorial\geometry\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\share\qt\build\Qt_tutorial\geometry\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\share\qt\Qt_tutorial\geometry\main.cpp" />
+    <ClCompile Include="E:\share\qt\Qt_tutorial\geometry\geometry.cpp" />
+    <ClCompile Include="E:\share\qt\build\Qt_tutorial\geometry\geometry_autogen\mocs_compilation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\share\qt\build\Qt_tutorial\ZERO_CHECK.vcxproj">
+      <Project>{E0617B67-F576-3C86-BCF5-52C2F141FF00}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
