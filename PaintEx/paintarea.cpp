@@ -29,7 +29,7 @@ void PaintArea::setBrush(QBrush b)
 
 void PaintArea::setFillRule(Qt::FillRule rule)
 {
-    fillrule = rule;
+    fillRule = rule;
     update();
 }
 
